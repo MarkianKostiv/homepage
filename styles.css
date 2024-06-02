@@ -155,6 +155,19 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
+.skills {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 40px 0 40px;
+}
+.skills > div > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .skills__header {
   color: var(--secondary-text-color);
@@ -222,6 +235,9 @@ body {
 
 .additional-info__education {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .additional-info__education-header {
